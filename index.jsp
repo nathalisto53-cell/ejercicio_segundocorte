@@ -52,26 +52,26 @@
         <div class="card">
             <h2>Información de Arquitectura y Dependencias</h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-top: 0.5rem;">
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
-                    <div style="color: #38bdf8; font-weight: 700; margin-bottom: 0.35rem;">✨ Estándar JSTL 1.2</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
+                    <div style="color: #ea580c; font-weight: 700; margin-bottom: 0.35rem;">✨ Estándar JSTL 1.2</div>
                     <div style="color: var(--text-muted); font-size: 0.9rem;">
                         Biblioteca <code>jstl-1.2.jar</code> activa en <code>WEB-INF/lib</code> para resolución de etiquetas y flujos.
                     </div>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
-                    <div style="color: #10b981; font-weight: 700; margin-bottom: 0.35rem;">☁️ Supabase Cloud &amp; PostgreSQL</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
+                    <div style="color: #15803d; font-weight: 700; margin-bottom: 0.35rem;">☁️ Supabase Cloud &amp; PostgreSQL</div>
                     <div style="color: var(--text-muted); font-size: 0.9rem;">
                         Conexión en la nube a <code>fzxikusnodngkvlztrgv.supabase.co</code> con REST API y driver PostgreSQL.
                     </div>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
-                    <div style="color: #a855f7; font-weight: 700; margin-bottom: 0.35rem;">🧩 Conexión Modular JSPF</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
+                    <div style="color: #c2410c; font-weight: 700; margin-bottom: 0.35rem;">🧩 Conexión Modular JSPF</div>
                     <div style="color: var(--text-muted); font-size: 0.9rem;">
                         Fragmento centralizado en <code>WEB-INF/jspf/conexion.jspf</code> incluido mediante directiva JSPF.
                     </div>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
-                    <div style="color: #f59e0b; font-weight: 700; margin-bottom: 0.35rem;">🚫 Cero Scriptlets</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 1rem;">
+                    <div style="color: #d97706; font-weight: 700; margin-bottom: 0.35rem;">🚫 Cero Scriptlets</div>
                     <div style="color: var(--text-muted); font-size: 0.9rem;">
                         Código 100% puro en etiquetas JSTL y Expression Language (EL), sin bloques <code>&lt;% %&gt;</code>.
                     </div>
