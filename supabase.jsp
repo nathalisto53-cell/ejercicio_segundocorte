@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Persistencia Supabase Cloud - Cero Servlets, Cero Scriptlets</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=3">
     <!-- Cliente oficial Supabase local y fallback CDN -->
     <script src="js/supabase.js"></script>
     <script>
@@ -94,16 +94,16 @@
         <div class="card">
             <h2>Detalles de Conexión Configurados</h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; font-size: 0.9rem;">
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
-                    <div style="color: #38bdf8; font-weight: 700;">🌐 Supabase Project URL</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
+                    <div style="color: #ea580c; font-weight: 700;">🌐 Supabase Project URL</div>
                     <code style="word-break: break-all; color: var(--text-muted);">https://fzxikusnodngkvlztrgv.supabase.co</code>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
-                    <div style="color: #10b981; font-weight: 700;">🔑 Publishable Key</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
+                    <div style="color: #15803d; font-weight: 700;">🔑 Publishable Key</div>
                     <code style="word-break: break-all; color: var(--text-muted);">sb_publishable_uqnfSi6712C3X4JS6ziqUg_1t5qbCS0</code>
                 </div>
-                <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
-                    <div style="color: #a855f7; font-weight: 700;">🛡️ Cumplimiento Académico</div>
+                <div style="background: #fff7ed; border: 1px solid var(--border-subtle); border-radius: 0.75rem; padding: 0.85rem;">
+                    <div style="color: #c2410c; font-weight: 700;">🛡️ Cumplimiento Académico</div>
                     <span style="color: var(--text-muted);">0 Servlets &bull; 0 Scriptlets (&lt;% %&gt;) &bull; 100% Puro</span>
                 </div>
             </div>

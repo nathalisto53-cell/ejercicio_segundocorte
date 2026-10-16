@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 5 - c:choose, c:when, c:otherwise</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
     <div class="container">

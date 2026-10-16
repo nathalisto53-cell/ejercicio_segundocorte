@@ -36,7 +36,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 9 - Base de Datos con JSTL SQL</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
     <div class="container">
@@ -122,7 +122,7 @@
                 <tbody>
                     <c:forEach var="fila" items="${result.rows}">
                         <tr>
-                            <td><span style="font-weight: 700; color: #818cf8;">#<c:out value="${fila.id}" /></span></td>
+                            <td><span style="font-weight: 700; color: #ea580c;">#<c:out value="${fila.id}" /></span></td>
                             <td><c:out value="${fila.nombres}" /></td>
                             <td><c:out value="${fila.apellido1} ${fila.apellido2}" /></td>
                             <td><span class="token-chip" style="padding: 0.25rem 0.65rem; font-size: 0.85rem;"><c:out value="${fila.edad}" /> años</span></td>
